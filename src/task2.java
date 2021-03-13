@@ -1,21 +1,20 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Task2 {
+public class task2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Input number: ");
         int number = in.nextInt();
         in.close();
 
-        switch(number){
+        switch (number) {
             case 1, 8:
                 System.out.println("День недели - понедельник");
                 break;
             case 2, 9:
                 System.out.println("День недели - вторник");
                 break;
-            case 3 :
+            case 3:
                 System.out.println("День недели - среда");
                 break;
             case 4:
