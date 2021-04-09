@@ -1,3 +1,5 @@
+//Создать класс Car c полями (марка, скорость, цена), конструкторы (с параметрами и default) getters и setters методы.
+
 package HW09042021;
 
 public class MainCar {
