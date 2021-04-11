@@ -12,7 +12,7 @@ public class MainCar {
             car1.start();
             car2.start();
         } catch (CarException e) {
-
+            System.out.println("Число является четным");
         }
         System.out.println("Программа - finish");
     }

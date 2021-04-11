@@ -9,7 +9,7 @@ public class Car {
     private String model;
     private int speed;
     private double price;
-    Random rand = new Random();
+    private Random rand = new Random();
 
     public Car(String model) {
         this.model = model;

@@ -15,8 +15,7 @@ public class ENUM {
         P, Q, R, S, T,
         U, V, W, X, Y, Z;
 
-        //The java.lang.Enum.ordinal() method returns the ordinal of this enumeration constant
-        // (its position in its enum declaration, where the initial constant is assigned an ordinal of zero).
+
         int getLetterPosition() {
            return ordinal() + 1;
 
